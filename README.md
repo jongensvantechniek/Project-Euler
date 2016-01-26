@@ -17,3 +17,5 @@ Solutions to Project Euler Problems
 
 `common+-(bash|c|cpp|c#|f#|java|go|haskell|nodejs|php|python|ruby|swift)$`
 * If your language is not supported by this previously stated regular expression, update the documentation.
+* Solutions that are work in progress should be stored in the development branch or in a seperate branch from the master.
+* The master branch may only contain correct solutions that abide the previously stated rules.
