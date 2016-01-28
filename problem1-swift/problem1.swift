@@ -19,7 +19,7 @@ func findSum() {
 
     for i in factors.minElement()!..<MAX {  // Iterate from lowerbound to upperbound.
         for j in factors {                  // Iterate over given factors.
-            if i % j == 0 {                 // If current factor is a multiple of current element of the collection N,
+            if i % j == 0 {                 // If current element of the collection N is a multiple of current factor element,
                 sumOfMultiples += i         // add the current element to the current sum.
                 break
             }
