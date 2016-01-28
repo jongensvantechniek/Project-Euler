@@ -29,4 +29,4 @@ func findSum()-> Int {
     return sumOfMultiples                   // Return summated result of found factor multiples.
 }
 
-print(findSum())                            // Execute functie, print result.
+print(findSum())                            // Execute function, print result.
