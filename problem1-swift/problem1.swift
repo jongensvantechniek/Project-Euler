@@ -14,7 +14,7 @@ let factors:Array<Int> = [3,5]              // Factors to check for multiples
     of the given factors, add it to the current sum.
 */
 
-func findSum() {
+func findSum()-> Int {
     var sumOfMultiples:Int = 0              // Initialize and set sum to 0
 
     for i in factors.minElement()!..<MAX {  // Iterate from lowerbound to upperbound.
@@ -26,5 +26,7 @@ func findSum() {
         }
     }
 
-    print(sumOfMultiples)                   // Return summated result of found factor multiples.
+    return sumOfMultiples                   // Return summated result of found factor multiples.
 }
+
+print(findSum())                            // Execute functie, print result.
