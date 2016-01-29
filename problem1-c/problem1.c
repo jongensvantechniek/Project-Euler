@@ -11,9 +11,12 @@ int main()
         int i;
         int sum = 0;
         
+        // For each natural number between 1 and 999.
         for(i = 0; i < 1000; i++)
-        {
+        {       
+                // Check whether that natural number is divisible by three or five.
                 if(i % 3 == 0 || i % 5 == 0) {
+                        // If condition is Fact, then add the natural number to the sum.
                         sum = sum + i;
                 }
         }

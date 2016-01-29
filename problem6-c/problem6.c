@@ -20,16 +20,22 @@ int main()
 
         long sumofsquare = 0, squareofsum = 0, difference;
 
+        // Find the sum of squares by looping from 1 to 100.
         for(a = 1; a <= 100; a++) {
+            // Keep track of your squares in your sum.
             sumofsquare = sumofsquare + a * a;
         }
 
+        // Find the square of sums by looping from 1 to 100.
         for(a = 1; a <= 100; a++) {
+            // Keep track of your sums in your squares.
             squareofsum = squareofsum + a;
         }
 
+        // Fair enough. We still need to square the sum here.
         squareofsum = squareofsum * squareofsum;
 
+        // Calculate the difference between the two.
         difference = squareofsum - sumofsquare;
 
         printf("%ld\n", difference);

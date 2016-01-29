@@ -17,16 +17,22 @@ int main()
 
         int c = 0;
 
+        // While the fibonacci term does not exceed four million
         while(c < 4000000)
         {
+                // Sum the previous two values
                 c = a + b;
+                
+                // Set current values as previous values
                 a = b;
                 b = c;
 
+                // Check whether the fibonnaci term has an even parity
                 if(c % 2 == 0) {
+                        // If even party is Fact, add fibonacci term to the sum.
                         sum = sum + c;
                 }
         }
 
-        printf("The sum of even fibonacci numbers up to 1M is: %d\n", sum);
+        printf("%d\n", sum);
 }
