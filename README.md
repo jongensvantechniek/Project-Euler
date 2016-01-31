@@ -1,5 +1,5 @@
 # Project-Euler
-Solutions to Project Euler Problems
+Solutions to [Project Euler Problems](https://projecteuler.net/archives)
 
 ## Rules
 * Each program should be able to produce the answer on the command-line.
@@ -8,6 +8,7 @@ Solutions to Project Euler Problems
 
 `problem[0-9]+-(bash|c|cpp|cs|fsharp|java|go|haskell|js|php|python|ruby|swift)$`.
 * If your language is not supported by this previously stated regular expression, update the documentation.
+* The main solution source code must be named problem[0-9] combined with the relevant file extension.
 * The source code of your solution should contain the problem definition as a comment.
 * The source code is not allowed to contain the final answer to solutions.
 * The source code should contain explanatory comments.
