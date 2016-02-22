@@ -79,7 +79,7 @@ public class Problem15 {
                 //calculating the all paths for coordinate 0:0
 
                 //Initialize the List to store the new paths for x:y
-                subPathsTotal = 0; //reset the ArrayList
+                subPathsTotal = 0; //reset the path counter
 
                 //Setup the first coordinate
                 //If not setup properly, the whole TreeMap will be blank
@@ -98,13 +98,13 @@ public class Problem15 {
                     subPathsTotal += answers.get(coordinateString(x,y-1));
                 }
 
-                //Finally put the ArrayList of all the paths for x:y
+                //Finally put the sum of all the paths for x:y
                 //into the 'answers' TreeMap
                 answers.put(coordinateString(x,y),subPathsTotal);
 
        /***** For smaller rectangles print out the paths for each node *****/
                 if(horizontalSide<printLimit
-                  || verticalSide<printLimit){
+                  && verticalSide<printLimit){
                     System.out.printf("%d:%d ",x,y);
                     System.out.println(subPathsTotal);
                 }
