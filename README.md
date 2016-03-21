@@ -6,7 +6,7 @@ Solutions to [Project Euler Problems](https://projecteuler.net/archives)
 * Each solution should be confined in it's own solution folder.
 * Solution folders should pass the following regular expression:
 
-`problem[0-9]+-(bash|c|cpp|cs|fsharp|java|go|haskell|js|php|python|ruby|swift|groovy)$`.
+`problem[0-9]{3}+-(bash|c|cpp|cs|fsharp|java|go|haskell|js|php|python|ruby|swift|groovy)$`.
 * If your language is not supported by this previously stated regular expression, update the documentation.
 * The main solution source code must be named problem[0-9] combined with the relevant file extension.
 * The source code of your solution should contain the problem definition as a comment.
