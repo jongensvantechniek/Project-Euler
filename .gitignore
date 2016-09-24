@@ -90,3 +90,8 @@ hs_err_pid*
 
 ### Intellij Patch ###
 *.iml
+
+# Haskell
+*.o
+*.hi
+problem001
